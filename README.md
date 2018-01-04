@@ -5,7 +5,7 @@ Codecourse - Build a PHP MVC application
 
 This proyect follows Codecourse's tutorial Build a PHP MVC Application at [YouTube](https://www.youtube.com/watch?v=OsCTzGASImQ&list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD)
 
-As database's ORM I will add [Medoo](https://medoo.in/) and problably a PHP template engine.
+As a database framework I will include [Medoo](https://medoo.in/) and problably a PHP template engine.
 
 Not sure about the front end.
 
