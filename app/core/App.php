@@ -1,7 +1,18 @@
 <?php
 
+/**
+ * App Class
+ * 
+ * @author Alberto
+ */
 class App {
 
+    /**
+     * Basic Routing - Set defaults controller, method and parameters
+     * @var $controller string
+     * @var $method     string
+     * @var $params     array
+     */
     protected $controller = 'home';
     protected $method = 'index';
     protected $params = [];
@@ -34,6 +45,10 @@ class App {
         call_user_func_array([$this->controller, $this->method], $this->params);
     }
 
+    /**
+     * Simple GET sanitize
+     * @return  string  Sanitized string
+     */
     public function parseUrl() {
 
         if (isset($_GET['url'])) {
