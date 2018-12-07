@@ -5,8 +5,13 @@
  * 
  * @author Alberto
  */
-class User {
+class User extends Model {
 
     public $name = '';
+    public $database;
+
+    public function test() {
+        
+    }
 
 }

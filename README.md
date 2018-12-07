@@ -9,6 +9,12 @@ As a database framework I will include [Medoo](https://medoo.in/) and problably 
 
 Not sure about the front end.
 
+## Install
+
+Run composer to fetch Medoo framework
+
+    composer install
+
 ## To do
 1. Integrate Medoo
 2. Test Medoo
