@@ -15,6 +15,9 @@ Run composer to fetch Medoo framework
 
     composer install
 
+
+Run *test.sql* to create table on database **test**. Connection information on constructor method at *core/Model.php*
+
 ## To do
 1. Integrate Medoo
 2. Test Medoo
