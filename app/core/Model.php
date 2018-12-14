@@ -1,7 +1,5 @@
 <?php
 
-require '../vendor/autoload.php';
-
 use Medoo\Medoo;
 
 class Model {
@@ -22,4 +20,8 @@ class Model {
         ]);
     }
 
+    public function instance() {
+        
+        return $this->database;
+    }
 }
