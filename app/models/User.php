@@ -8,10 +8,16 @@
 class User extends Model {
 
     public $name = '';
-    public $database;
+    private $db;
+
+    public function __construct() {
+        parent::__construct();
+
+        $this->db = $this->instance();
+    }
 
     public function test() {
-        
+        return $this->db->select('user', '*');
     }
 
 }
